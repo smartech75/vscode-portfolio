@@ -33,7 +33,7 @@ const GithubPage = ({ repos, user }) => {
         </div>
       </div>
       <div className={styles.container}>
-        {repos.map((repo) => (
+        {repos?.map((repo) => (
           <RepoCard key={repo.id} repo={repo} />
         ))}
       </div>
