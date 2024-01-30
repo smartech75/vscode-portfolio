@@ -42,4 +42,24 @@ import styles from '../styles/ArticlesPage.module.css';
 //   };
 // }
 
-// export default ArticlesPage;
+const ArticlesPage = () => {
+  return (
+    <>
+      <h3>
+        Recent Posts from{' '}
+        <a
+          href="https://dev.to/itsnitinr"
+          target="_blank"
+          rel="noopener"
+          className={styles.underline}
+        >
+          dev.to
+        </a>
+      </h3>
+      <div className={styles.container}>
+      </div>
+    </>
+  );
+};
+
+export default ArticlesPage;
